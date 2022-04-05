@@ -27,7 +27,7 @@ def lambda_handler(event, context):
         
         # write to s3 from local
         s3 = boto3.resource('s3')
-        bucket = s3.Bucket('dgx-ds-use1-dev-landing-s3')
+        bucket = s3.Bucket('xxx-s3')
         key = 'test.csv'
         df_s3_data.to_csv('/tmp/test.csv')
         bucket.upload_file('/tmp/test.csv', key)

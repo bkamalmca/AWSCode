@@ -32,3 +32,12 @@
 ```
   sudo yum install zip
 ```
+
+
+
+
+### Another approach is to use the data wrangler package for pandas library
+
+* Used the AWSDataWrangler in Add Layer and tried running pandas, it worked and was an easy step.  
+
+* For Details, https://aws-data-wrangler.readthedocs.io/en/stable/install.html
